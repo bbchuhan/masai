@@ -1,0 +1,160 @@
+.maindiv {
+    height: 200px;
+    width: 100%;
+    
+    /* display: grid;
+    grid-template-columns:20% 20% 20%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.maindiv div {
+    width: 20%;
+    height: 200px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.team{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.pratik{
+    position: relative;
+    bottom: 50px;
+    color: white;
+
+}
+
+@media screen and (min-width:1024px) and (max-width: 1440px) {
+    .maindiv {
+        height: 200px;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .maindiv div {
+        width: 20%;
+        height: 200px;
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px ) {
+    .maindiv {
+        height: 200px;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .maindiv div {
+        width: 40%;
+        height: 200px;
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media screen and  (min-width:425px) and (max-width:768px)  {
+    .maindiv {
+        height: 200px;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .maindiv div {
+        width: 45%;
+        height: 200px;
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:425px) {
+    .maindiv {
+        height: 200px;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .maindiv div {
+        width: 50%;
+        height: 200px;
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:375px){
+    .maindiv {
+        height: 200px;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .maindiv div {
+        width: 100%;
+        height: 200px;
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
